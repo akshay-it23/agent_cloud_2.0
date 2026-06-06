@@ -63,33 +63,33 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 46**: Export `sanitizePath` function.
 
 ### Logging Utility (`src/utils/logger.ts`)
-- [ ] **Task 47**: Create `src/utils/logger.ts` file.
-- [ ] **Task 48**: Import `chalk`, `fs`, and `path`.
-- [ ] **Task 49**: Define `LogLevel` union type: `'debug' | 'info' | 'warn' | 'error' | 'success'`.
-- [ ] **Task 50**: Define `LogEntry` interface with `timestamp`, `level`, `message`, `metadata`, and `error` attributes.
-- [ ] **Task 51**: Declare `Logger` class.
-- [ ] **Task 52**: Define private class members: `logDir`, `logFile`, `sessionId`, `minLevel`, `levelPriority`.
-- [ ] **Task 53**: Initialize `levelPriority` map to rank levels: debug (0), info (1), success (2), warn (3), error (4).
-- [ ] **Task 54**: Create constructor for `Logger` with optional options parameter.
-- [ ] **Task 55**: Resolve log folder path, default to `.agent-cloud/logs`.
-- [ ] **Task 56**: Resolve unique session ID, default to timestamp.
-- [ ] **Task 57**: Build log filepath string inside constructor.
-- [ ] **Task 58**: Write `ensureLogDir` private method to check for directory existence and create if missing.
-- [ ] **Task 59**: Write `shouldLog` private method to compare candidate levels against minimum logging level.
-- [ ] **Task 60**: Write `formatMessage` private method returning a bracketed timestamp and log level prefix.
-- [ ] **Task 61**: Write `writeToFile` private method that appends JSON serialized log entry strings.
-- [ ] **Task 62**: Write `log` private method containing write-to-file and console colored-printing branches.
-- [ ] **Task 63**: Add console output console logs with chalk styling (gray for debug, cyan for info, green for success, yellow for warn, red for error).
-- [ ] **Task 64**: Add metadata printing block to `log` method.
-- [ ] **Task 65**: Implement `debug` public method on `Logger`.
-- [ ] **Task 66**: Implement `info` public method on `Logger`.
-- [ ] **Task 67**: Implement `success` public method on `Logger`.
-- [ ] **Task 68**: Implement `warn` public method on `Logger`.
-- [ ] **Task 69**: Implement `error` public method on `Logger` handling stack traces.
-- [ ] **Task 70**: Implement `getLogFile` public method on `Logger`.
-- [ ] **Task 71**: Implement `getLogEntries` public method to read and parse the JSONL file.
-- [ ] **Task 72**: Implement static `cleanupOldLogs` method to prune logs older than N days.
-- [ ] **Task 73**: Define global variables and export `getLogger` and `resetLogger` functions.
+- [x] **Task 47**: Create `src/utils/logger.ts` file.
+- [x] **Task 48**: Import `chalk`, `fs`, and `path`.
+- [x] **Task 49**: Define `LogLevel` union type: `'debug' | 'info' | 'warn' | 'error' | 'success'`.
+- [x] **Task 50**: Define `LogEntry` interface with `timestamp`, `level`, `message`, `metadata`, and `error` attributes.
+- [x] **Task 51**: Declare `Logger` class.
+- [x] **Task 52**: Define private class members: `logDir`, `logFile`, `sessionId`, `minLevel`, `levelPriority`.
+- [x] **Task 53**: Initialize `levelPriority` map to rank levels: debug (0), info (1), success (2), warn (3), error (4).
+- [x] **Task 54**: Create constructor for `Logger` with optional options parameter.
+- [x] **Task 55**: Resolve log folder path, default to `.agent-cloud/logs`.
+- [x] **Task 56**: Resolve unique session ID, default to timestamp.
+- [x] **Task 57**: Build log filepath string inside constructor.
+- [x] **Task 58**: Write `ensureLogDir` private method to check for directory existence and create if missing.
+- [x] **Task 59**: Write `shouldLog` private method to compare candidate levels against minimum logging level.
+- [x] **Task 60**: Write `formatMessage` private method returning a bracketed timestamp and log level prefix.
+- [x] **Task 61**: Write `writeToFile` private method that appends JSON serialized log entry strings.
+- [x] **Task 62**: Write `log` private method containing write-to-file and console colored-printing branches.
+- [x] **Task 63**: Add console output console logs with chalk styling (gray for debug, cyan for info, green for success, yellow for warn, red for error).
+- [x] **Task 64**: Add metadata printing block to `log` method.
+- [x] **Task 65**: Implement `debug` public method on `Logger`.
+- [x] **Task 66**: Implement `info` public method on `Logger`.
+- [x] **Task 67**: Implement `success` public method on `Logger`.
+- [x] **Task 68**: Implement `warn` public method on `Logger`.
+- [x] **Task 69**: Implement `error` public method on `Logger` handling stack traces.
+- [x] **Task 70**: Implement `getLogFile` public method on `Logger`.
+- [x] **Task 71**: Implement `getLogEntries` public method to read and parse the JSONL file.
+- [x] **Task 72**: Implement static `cleanupOldLogs` method to prune logs older than N days.
+- [x] **Task 73**: Define global variables and export `getLogger` and `resetLogger` functions.
 
 ### Progress & Spinner Utilities (`src/utils/progress.ts`)
 - [ ] **Task 74**: Create `src/utils/progress.ts` file.
