@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
