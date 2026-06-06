@@ -92,23 +92,23 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 73**: Define global variables and export `getLogger` and `resetLogger` functions.
 
 ### Progress & Spinner Utilities (`src/utils/progress.ts`)
-- [ ] **Task 74**: Create `src/utils/progress.ts` file.
-- [ ] **Task 75**: Import `ora`, `cli-progress`, and `chalk`.
-- [ ] **Task 76**: Declare `Spinner` class.
-- [ ] **Task 77**: Define private `spinner` instance variable.
-- [ ] **Task 78**: Implement constructor in `Spinner` initializing the `ora` object with cyan color.
-- [ ] **Task 79**: Implement `start` method on `Spinner`.
-- [ ] **Task 80**: Implement `update` method on `Spinner`.
-- [ ] **Task 81**: Implement `succeed`, `fail`, `warn`, `info`, and `stop` methods on `Spinner`.
-- [ ] **Task 82**: Declare `ProgressBar` class.
-- [ ] **Task 83**: Define private instance properties: `bar` and `total`.
-- [ ] **Task 84**: Implement constructor inside `ProgressBar` initializing the `cli-progress.SingleBar` object.
-- [ ] **Task 85**: Implement `start`, `update`, `increment`, and `stop` methods on `ProgressBar`.
-- [ ] **Task 86**: Declare `ProgressTracker` class for multi-step tasks.
-- [ ] **Task 87**: Define private array tracking steps and statuses.
-- [ ] **Task 88**: Implement constructor mapping list of steps to pending states.
-- [ ] **Task 89**: Implement `start`, `nextStep`, `failCurrentStep`, `complete`, `display`, and `getStatus` methods.
-- [ ] **Task 90**: Implement `delay` helper function and spinner execution wrappers `withSpinner` / `withProgress`.
+- [x] **Task 74**: Create `src/utils/progress.ts` file.
+- [x] **Task 75**: Import `ora`, `cli-progress`, and `chalk`.
+- [x] **Task 76**: Declare `Spinner` class.
+- [x] **Task 77**: Define private `spinner` instance variable.
+- [x] **Task 78**: Implement constructor in `Spinner` initializing the `ora` object with cyan color.
+- [x] **Task 79**: Implement `start` method on `Spinner`.
+- [x] **Task 80**: Implement `update` method on `Spinner`.
+- [x] **Task 81**: Implement `succeed`, `fail`, `warn`, `info`, and `stop` methods on `Spinner`.
+- [x] **Task 82**: Declare `ProgressBar` class.
+- [x] **Task 83**: Define private instance properties: `bar` and `total`.
+- [x] **Task 84**: Implement constructor inside `ProgressBar` initializing the `cli-progress.SingleBar` object.
+- [x] **Task 85**: Implement `start`, `update`, `increment`, and `stop` methods on `ProgressBar`.
+- [x] **Task 86**: Declare `ProgressTracker` class for multi-step tasks.
+- [x] **Task 87**: Define private array tracking steps and statuses.
+- [x] **Task 88**: Implement constructor mapping list of steps to pending states.
+- [x] **Task 89**: Implement `start`, `nextStep`, `failCurrentStep`, `complete`, `display`, and `getStatus` methods.
+- [x] **Task 90**: Implement `delay` helper function and spinner execution wrappers `withSpinner` / `withProgress`.
 
 ---
 
