@@ -25,20 +25,20 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 16**: Configure `include` array to include `"src/**/*"` in `tsconfig.json`.
 
 ### Dependency Manifest Setup
-- [ ] **Task 17**: Run `npm init -y` to generate a default `package.json`.
-- [ ] **Task 18**: Set `"type": "module"` in `package.json`.
-- [ ] **Task 19**: Set `"main": "dist/cli/index.js"` in `package.json`.
-- [ ] **Task 20**: Configure the `"bin"` object with `"cloud": "./dist/cli/index.js"` in `package.json`.
-- [ ] **Task 21**: Define npm run script `"dev": "mastra dev"` in `package.json`.
-- [ ] **Task 22**: Define npm run script `"build": "tsc && mastra build"` in `package.json`.
-- [ ] **Task 23**: Define npm run script `"start": "node dist/cli/index.js"` in `package.json`.
-- [ ] **Task 24**: Define npm run script `"cli": "tsx src/cli/index.ts"` in `package.json`.
-- [ ] **Task 25**: Add production dependencies: `@mastra/core`, `@mastra/libsql`, `chalk`, `cli-progress`.
-- [ ] **Task 26**: Add production dependencies: `commander`, `dotenv`, `figlet`, `gradient-string`.
-- [ ] **Task 27**: Add production dependencies: `inquirer`, `ora`, `zod`.
-- [ ] **Task 28**: Add devDependencies: `@types/node`, `@types/figlet`, `@types/gradient-string`, `@types/inquirer`, `@types/cli-progress`.
-- [ ] **Task 29**: Add devDependencies: `mastra`, `tsx`, `typescript`, `vitest`.
-- [ ] **Task 30**: Create `.env.example` file detailing required API keys and provider environment variables.
+- [x] **Task 17**: Run `npm init -y` to generate a default `package.json`.
+- [x] **Task 18**: Set `"type": "module"` in `package.json`.
+- [x] **Task 19**: Set `"main": "dist/cli/index.js"` in `package.json`.
+- [x] **Task 20**: Configure the `"bin"` object with `"cloud": "./dist/cli/index.js"` in `package.json`.
+- [x] **Task 21**: Define npm run script `"dev": "mastra dev"` in `package.json`.
+- [x] **Task 22**: Define npm run script `"build": "tsc && mastra build"` in `package.json`.
+- [x] **Task 23**: Define npm run script `"start": "node dist/cli/index.js"` in `package.json`.
+- [x] **Task 24**: Define npm run script `"cli": "tsx src/cli/index.ts"` in `package.json`.
+- [x] **Task 25**: Add production dependencies: `@mastra/core`, `@mastra/libsql`, `chalk`, `cli-progress`.
+- [x] **Task 26**: Add production dependencies: `commander`, `dotenv`, `figlet`, `gradient-string`.
+- [x] **Task 27**: Add production dependencies: `inquirer`, `ora`, `zod`.
+- [x] **Task 28**: Add devDependencies: `@types/node`, `@types/figlet`, `@types/gradient-string`, `@types/inquirer`, `@types/cli-progress`.
+- [x] **Task 29**: Add devDependencies: `mastra`, `tsx`, `typescript`, `vitest`.
+- [x] **Task 30**: Create `.env.example` file detailing required API keys and provider environment variables.
 
 ---
 
