@@ -115,27 +115,27 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 3: Project Configuration & Domain Errors (Tasks 91-140)
 
 ### Config Manager (`src/utils/config.ts`)
-- [ ] **Task 91**: Create `src/utils/config.ts` file.
-- [ ] **Task 92**: Import `fs`, `path`, and types.
-- [ ] **Task 93**: Define `DeploymentRecord` interface.
-- [ ] **Task 94**: Define `ProjectConfig` interface.
-- [ ] **Task 95**: Declare `ConfigManager` class.
-- [ ] **Task 96**: Declare private properties: `configDir`, `configFile`, `config`.
-- [ ] **Task 97**: Create constructor that builds configuration paths and loads configurations.
-- [ ] **Task 98**: Implement private `loadConfig` method checking file existence.
-- [ ] **Task 99**: Implement private `saveConfig` method creating directories and writing files.
-- [ ] **Task 100**: Implement `getConfig` public method.
-- [ ] **Task 101**: Implement `updateConfig` public method.
-- [ ] **Task 102**: Implement `setDefaultCloud` and `getDefaultCloud` methods.
-- [ ] **Task 103**: Implement `setAutoApprove` and `getAutoApprove` methods.
-- [ ] **Task 104**: Implement `addDeployment` method limiting saved list to last 50 entries.
-- [ ] **Task 105**: Implement `getDeployments` and `getLastDeployment` methods.
-- [ ] **Task 106**: Implement filtering methods: `getDeploymentsByCloud`, `getSuccessfulDeployments`, `getFailedDeployments`.
-- [ ] **Task 107**: Implement `getStats` calculation summarizing count, costs, and durations.
-- [ ] **Task 108**: Implement `setPreferredRegion` and `getPreferredRegion` preference settings.
-- [ ] **Task 109**: Implement `clearHistory` history cleaner method.
-- [ ] **Task 110**: Implement `export` and `import` JSON configuration serializers.
-- [ ] **Task 111**: Export `getConfigManager` factory function.
+- [x] **Task 91**: Create `src/utils/config.ts` file.
+- [x] **Task 92**: Import `fs`, `path`, and types.
+- [x] **Task 93**: Define `DeploymentRecord` interface.
+- [x] **Task 94**: Define `ProjectConfig` interface.
+- [x] **Task 95**: Declare `ConfigManager` class.
+- [x] **Task 96**: Declare private properties: `configDir`, `configFile`, `config`.
+- [x] **Task 97**: Create constructor that builds configuration paths and loads configurations.
+- [x] **Task 98**: Implement private `loadConfig` method checking file existence.
+- [x] **Task 99**: Implement private `saveConfig` method creating directories and writing files.
+- [x] **Task 100**: Implement `getConfig` public method.
+- [x] **Task 101**: Implement `updateConfig` public method.
+- [x] **Task 102**: Implement `setDefaultCloud` and `getDefaultCloud` methods.
+- [x] **Task 103**: Implement `setAutoApprove` and `getAutoApprove` methods.
+- [x] **Task 104**: Implement `addDeployment` method limiting saved list to last 50 entries.
+- [x] **Task 105**: Implement `getDeployments` and `getLastDeployment` methods.
+- [x] **Task 106**: Implement filtering methods: `getDeploymentsByCloud`, `getSuccessfulDeployments`, `getFailedDeployments`.
+- [x] **Task 107**: Implement `getStats` calculation summarizing count, costs, and durations.
+- [x] **Task 108**: Implement `setPreferredRegion` and `getPreferredRegion` preference settings.
+- [x] **Task 109**: Implement `clearHistory` history cleaner method.
+- [x] **Task 110**: Implement `export` and `import` JSON configuration serializers.
+- [x] **Task 111**: Export `getConfigManager` factory function.
 
 ### Custom Domain Errors (`src/utils/error-handler.ts`)
 - [ ] **Task 112**: Create `src/utils/error-handler.ts` file.
