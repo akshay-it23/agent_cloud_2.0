@@ -45,22 +45,22 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 2: Core Utility Modules (Tasks 31-90)
 
 ### Shell Utilities (`src/utils/shell.ts`)
-- [ ] **Task 31**: Create `src/utils/shell.ts` file.
-- [ ] **Task 32**: Import necessary Node modules or typings.
-- [ ] **Task 33**: Write `shellEscape` function signature to accept a string argument.
-- [ ] **Task 34**: Implement logic in `shellEscape` to strip null bytes (`\0`).
-- [ ] **Task 35**: Implement regex filter in `shellEscape` to only allow safe characters (alphanumeric, hyphens, underscores, dots, forward slashes, spaces).
-- [ ] **Task 36**: Export `shellEscape` function.
-- [ ] **Task 37**: Write `sanitizeResourceName` function signature to accept a resource name string.
-- [ ] **Task 38**: Implement lowercase conversion in `sanitizeResourceName`.
-- [ ] **Task 39**: Add regex to replace non-alphanumeric/hyphen characters with a single hyphen.
-- [ ] **Task 40**: Add regex to replace multiple consecutive hyphens with a single hyphen.
-- [ ] **Task 41**: Add regex to strip leading and trailing hyphens.
-- [ ] **Task 42**: Limit resource name length to 63 characters in `sanitizeResourceName` and export it.
-- [ ] **Task 43**: Write `sanitizePath` function signature to accept a path string.
-- [ ] **Task 44**: Implement null-byte removal in `sanitizePath`.
-- [ ] **Task 45**: Implement traversal prevention by replacing `../` and `..\` with empty strings.
-- [ ] **Task 46**: Export `sanitizePath` function.
+- [x] **Task 31**: Create `src/utils/shell.ts` file.
+- [x] **Task 32**: Import necessary Node modules or typings.
+- [x] **Task 33**: Write `shellEscape` function signature to accept a string argument.
+- [x] **Task 34**: Implement logic in `shellEscape` to strip null bytes (`\0`).
+- [x] **Task 35**: Implement regex filter in `shellEscape` to only allow safe characters (alphanumeric, hyphens, underscores, dots, forward slashes, spaces).
+- [x] **Task 36**: Export `shellEscape` function.
+- [x] **Task 37**: Write `sanitizeResourceName` function signature to accept a resource name string.
+- [x] **Task 38**: Implement lowercase conversion in `sanitizeResourceName`.
+- [x] **Task 39**: Add regex to replace non-alphanumeric/hyphen characters with a single hyphen.
+- [x] **Task 40**: Add regex to replace multiple consecutive hyphens with a single hyphen.
+- [x] **Task 41**: Add regex to strip leading and trailing hyphens.
+- [x] **Task 42**: Limit resource name length to 63 characters in `sanitizeResourceName` and export it.
+- [x] **Task 43**: Write `sanitizePath` function signature to accept a path string.
+- [x] **Task 44**: Implement null-byte removal in `sanitizePath`.
+- [x] **Task 45**: Implement traversal prevention by replacing `../` and `..\` with empty strings.
+- [x] **Task 46**: Export `sanitizePath` function.
 
 ### Logging Utility (`src/utils/logger.ts`)
 - [ ] **Task 47**: Create `src/utils/logger.ts` file.
