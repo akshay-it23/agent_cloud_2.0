@@ -367,54 +367,54 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 7: AI Integrations & Mastra Setup (Tasks 301-340)
 
 ### Mastra Configuration & Instances (`src/mastra/index.ts`)
-- [ ] **Task 301**: Create `src/mastra/index.ts` file at the mastra subdirectory.
-- [ ] **Task 302**: Import `Mastra` core engine module class.
-- [ ] **Task 303**: Import `LibSQLStore` database manager.
-- [ ] **Task 304**: Import custom AI agents (analyzer, deployment, validator).
-- [ ] **Task 305**: Import workflows configuration settings.
-- [ ] **Task 306**: Configure Mastra constructor settings binding agent instances.
-- [ ] **Task 307**: Register deployment workflows inside Mastra config declarations.
-- [ ] **Task 308**: Initialize local storage configuration `LibSQLStore` URL pointing to local database path file `./agent-cloud.db`.
-- [ ] **Task 309**: Export initialized Mastra instance parameters.
-- [ ] **Task 310**: Create `mastra.config.ts` configuration options at project root directories.
+- [x] **Task 301**: Create `src/mastra/index.ts` file at the mastra subdirectory.
+- [x] **Task 302**: Import `Mastra` core engine module class.
+- [x] **Task 303**: Import `LibSQLStore` database manager.
+- [x] **Task 304**: Import custom AI agents (analyzer, deployment, validator).
+- [x] **Task 305**: Import workflows configuration settings.
+- [x] **Task 306**: Configure Mastra constructor settings binding agent instances.
+- [x] **Task 307**: Register deployment workflows inside Mastra config declarations.
+- [x] **Task 308**: Initialize local storage configuration `LibSQLStore` URL pointing to local database path file `./agent-cloud.db`.
+- [x] **Task 309**: Export initialized Mastra instance parameters.
+- [x] **Task 310**: Create `mastra.config.ts` configuration options at project root directories.
 
 ### AI Analyzer Agent (`src/mastra/agents/analyzer.ts`)
-- [ ] **Task 311**: Create `src/mastra/agents/analyzer.ts` file.
-- [ ] **Task 312**: Import `Agent` class constructor from Mastra.
-- [ ] **Task 313**: Import analyzer tools configurations.
-- [ ] **Task 314**: Declare `analyzerAgent` instance.
-- [ ] **Task 315**: Setup agent configuration ID (`project-analyzer`) and name.
-- [ ] **Task 316**: Write System prompts defining DevOps project scanning logic steps.
-- [ ] **Task 317**: Embed structural JSON response schemas inside analyzer prompt guidelines.
-- [ ] **Task 318**: Configure model selection checks prioritizing `XAI_API_KEY`, `GOOGLE_GENERATIVE_AI_API_KEY`, or `OPENAI_API_KEY` models.
-- [ ] **Task 319**: Register fileSystem, reader, analyzer, parser tools onto the analyzer agent.
-- [ ] **Task 320**: Set maximum retries properties.
+- [x] **Task 311**: Create `src/mastra/agents/analyzer.ts` file.
+- [x] **Task 312**: Import `Agent` class constructor from Mastra.
+- [x] **Task 313**: Import analyzer tools configurations.
+- [x] **Task 314**: Declare `analyzerAgent` instance.
+- [x] **Task 315**: Setup agent configuration ID (`project-analyzer`) and name.
+- [x] **Task 316**: Write System prompts defining DevOps project scanning logic steps.
+- [x] **Task 317**: Embed structural JSON response schemas inside analyzer prompt guidelines.
+- [x] **Task 318**: Configure model selection checks prioritizing `XAI_API_KEY`, `GOOGLE_GENERATIVE_AI_API_KEY`, or `OPENAI_API_KEY` models.
+- [x] **Task 319**: Register fileSystem, reader, analyzer, parser tools onto the analyzer agent.
+- [x] **Task 320**: Set maximum retries properties.
 
 ### AI Validator Agent (`src/mastra/agents/validator.ts`)
-- [ ] **Task 321**: Create `src/mastra/agents/validator.ts` file.
-- [ ] **Task 322**: Import `Agent` class constructor.
-- [ ] **Task 323**: Import validator checker tools.
-- [ ] **Task 324**: Declare `validatorAgent` instance.
-- [ ] **Task 325**: Configure agent ID `environment-validator` and name properties.
-- [ ] **Task 326**: Design validator prompts outlining verification checks (CLI tools, auth, env, network, permissions).
-- [ ] **Task 327**: Configure agent LLM model fallback chains.
-- [ ] **Task 328**: Register checker tools onto the validator agent config.
+- [x] **Task 321**: Create `src/mastra/agents/validator.ts` file.
+- [x] **Task 322**: Import `Agent` class constructor.
+- [x] **Task 323**: Import validator checker tools.
+- [x] **Task 324**: Declare `validatorAgent` instance.
+- [x] **Task 325**: Configure agent ID `environment-validator` and name properties.
+- [x] **Task 326**: Design validator prompts outlining verification checks (CLI tools, auth, env, network, permissions).
+- [x] **Task 327**: Configure agent LLM model fallback chains.
+- [x] **Task 328**: Register checker tools onto the validator agent config.
 
 ### AI Deployment Planner Agent (`src/mastra/agents/deployment.ts`)
-- [ ] **Task 329**: Create `src/mastra/agents/deployment.ts` file.
-- [ ] **Task 330**: Import `Agent` class.
-- [ ] **Task 331**: Import serviceMapper, costEstimator, commandGenerator tools.
-- [ ] **Task 332**: Declare `deploymentAgent` instance.
-- [ ] **Task 333**: Write planner instructions mapping inputs to services, costs, and setup steps.
-- [ ] **Task 334**: Embed planner JSON schemas.
-- [ ] **Task 335**: Register tools onto the deployment agent.
-- [ ] **Task 336**: Set retries.
+- [x] **Task 329**: Create `src/mastra/agents/deployment.ts` file.
+- [x] **Task 330**: Import `Agent` class.
+- [x] **Task 331**: Import serviceMapper, costEstimator, commandGenerator tools.
+- [x] **Task 332**: Declare `deploymentAgent` instance.
+- [x] **Task 333**: Write planner instructions mapping inputs to services, costs, and setup steps.
+- [x] **Task 334**: Embed planner JSON schemas.
+- [x] **Task 335**: Register tools onto the deployment agent.
+- [x] **Task 336**: Set retries.
 
 ### Agents Index (`src/mastra/agents/index.ts`)
-- [ ] **Task 337**: Create `src/mastra/agents/index.ts` file.
-- [ ] **Task 338**: Export `analyzerAgent` config object references.
-- [ ] **Task 339**: Export `validatorAgent` config object references.
-- [ ] **Task 340**: Export `deploymentAgent` config object references.
+- [x] **Task 337**: Create `src/mastra/agents/index.ts` file.
+- [x] **Task 338**: Export `analyzerAgent` config object references.
+- [x] **Task 339**: Export `validatorAgent` config object references.
+- [x] **Task 340**: Export `deploymentAgent` config object references.
 
 ---
 
