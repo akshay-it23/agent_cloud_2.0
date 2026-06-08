@@ -434,18 +434,18 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 351**: Implement JSON parsing logic extracting build/start script properties.
 
 ### Planning Tools (`src/mastra/tools/deployment.ts`)
-- [ ] **Task 352**: Create `src/mastra/tools/deployment.ts` file.
-- [ ] **Task 353**: Define service mappings dictionaries for AWS, GCP, and Azure.
-- [ ] **Task 354**: Define `serviceMapperTool` mapping inputs to mapped cloud services list.
-- [ ] **Task 355**: Define `costEstimatorTool` calculating monthly compute storage costs.
-- [ ] **Task 356**: Implement small/medium/large scaling multiplier calculations inside `costEstimatorTool`.
-- [ ] **Task 357**: Define `commandGeneratorTool` schema configurations.
-- [ ] **Task 358**: Implement command templates generation script mappings inside `commandGeneratorTool` for AWS.
-- [ ] **Task 359**: Implement command templates generation script mappings inside `commandGeneratorTool` for GCP.
-- [ ] **Task 360**: Implement command templates generation script mappings inside `commandGeneratorTool` for Azure.
+- [x] **Task 352**: Create `src/mastra/tools/deployment.ts` file.
+- [x] **Task 353**: Define service mappings dictionaries for AWS, GCP, and Azure.
+- [x] **Task 354**: Define `serviceMapperTool` mapping inputs to mapped cloud services list.
+- [x] **Task 355**: Define `costEstimatorTool` calculating monthly compute storage costs.
+- [x] **Task 356**: Implement small/medium/large scaling multiplier calculations inside `costEstimatorTool`.
+- [x] **Task 357**: Define `commandGeneratorTool` schema configurations.
+- [x] **Task 358**: Implement command templates generation script mappings inside `commandGeneratorTool` for AWS.
+- [x] **Task 359**: Implement command templates generation script mappings inside `commandGeneratorTool` for GCP.
+- [x] **Task 360**: Implement command templates generation script mappings inside `commandGeneratorTool` for Azure.
 
 ### Validation Tools (`src/mastra/tools/validator.ts`)
-- [ ] **Task 361**: Create `src/mastra/tools/validator.ts` file.
+- [x] **Task 361**: Create `src/mastra/tools/validator.ts` file.
 - [ ] **Task 362**: Define `cliCheckerTool` properties.
 - [ ] **Task 363**: Implement command executions looking up version strings inside `cliCheckerTool`.
 - [ ] **Task 364**: Define `authCheckerTool` properties.
