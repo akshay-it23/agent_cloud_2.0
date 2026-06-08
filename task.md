@@ -456,17 +456,17 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 369**: Implement environment checks validating access properties in `envVarCheckerTool`.
 - [x] **Task 370**: Define `networkCheckerTool` properties.
 - [x] **Task 371**: Implement curl execution logic inside `networkCheckerTool` calculating connection latencies.
-- [ ] **Task 372**: Define `permissionsCheckerTool` properties.
-- [ ] **Task 373**: Implement bucket list commands inside `permissionsCheckerTool` checking AWS access permissions.
-- [ ] **Task 374**: Implement projects list commands checking GCP permissions.
-- [ ] **Task 375**: Implement resource groups list commands checking Azure permissions.
+- [x] **Task 372**: Define `permissionsCheckerTool` properties.
+- [x] **Task 373**: Implement bucket list commands inside `permissionsCheckerTool` checking AWS access permissions.
+- [x] **Task 374**: Implement projects list commands checking GCP permissions.
+- [x] **Task 375**: Implement resource groups list commands checking Azure permissions.
 
 ### Execution Tools (`src/mastra/tools/executor.ts`)
-- [ ] **Task 376**: Create `src/mastra/tools/executor.ts` file.
-- [ ] **Task 377**: Define `commandExecutorTool` properties executing command strings.
-- [ ] **Task 378**: Define `awsCommandTool` execution parameters.
-- [ ] **Task 379**: Define `dockerBuildTool` configuration properties.
-- [ ] **Task 380**: Implement docker build terminal executor script logic.
+- [x] **Task 376**: Create `src/mastra/tools/executor.ts` file.
+- [x] **Task 377**: Define `commandExecutorTool` properties executing command strings.
+- [x] **Task 378**: Define `awsCommandTool` execution parameters.
+- [x] **Task 379**: Define `dockerBuildTool` configuration properties.
+- [x] **Task 380**: Implement docker build terminal executor script logic.
 
 ---
 

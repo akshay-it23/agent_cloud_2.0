@@ -131,7 +131,7 @@ export const networkCheckerTool = createTool({
     }
 });
 
-// Permissions checker remains a stub for now (implemented in tasks 372-375)
+// Task 372: Define permissionsCheckerTool properties
 export const permissionsCheckerTool = createTool({
     id: 'permissions-checker-tool',
     description: 'Checks permissions and policies granted to the cloud user',
@@ -142,6 +142,29 @@ export const permissionsCheckerTool = createTool({
         hasPermission: z.boolean()
     }),
     execute: async ({ context }) => {
-        return { hasPermission: true };
+        const cloud = context.cloud.toLowerCase();
+        let hasPermission = false;
+
+        try {
+            // Task 373: Implement bucket list commands inside permissionsCheckerTool checking AWS access permissions
+            if (cloud === 'aws') {
+                execSync('aws s3 ls', { stdio: 'ignore', timeout: 3000 });
+                hasPermission = true;
+            } 
+            // Task 374: Implement projects list commands checking GCP permissions
+            else if (cloud === 'gcp') {
+                execSync('gcloud projects list --limit=1', { stdio: 'ignore', timeout: 3000 });
+                hasPermission = true;
+            } 
+            // Task 375: Implement resource groups list commands checking Azure permissions
+            else if (cloud === 'azure') {
+                execSync('az group list --query "[0].name"', { stdio: 'ignore', timeout: 3000 });
+                hasPermission = true;
+            }
+        } catch (err) {
+            hasPermission = false;
+        }
+
+        return { hasPermission };
     }
 });
