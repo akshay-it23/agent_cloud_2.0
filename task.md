@@ -265,102 +265,102 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 6: Cloud Provider Integrations (Tasks 211-300)
 
 ### AWS Provider (`src/providers/aws/index.ts`)
-- [ ] **Task 211**: Create `src/providers/aws/index.ts` file.
-- [ ] **Task 212**: Import exec helpers, fs writes, resource string sanitizers.
-- [ ] **Task 213**: Define configuration options interface `AWSConfig`.
-- [ ] **Task 214**: Define AWS `DeploymentResult` format.
-- [ ] **Task 215**: Declare `AWSProvider` class interface.
-- [ ] **Task 216**: Implement constructor initializing profile and target region values.
-- [ ] **Task 217**: Implement `authenticate` calling caller-identity command.
-- [ ] **Task 218**: Implement `deployToECS` ECS service deployer function.
-- [ ] **Task 219**: Sanitize deployment app names for ECS clusters.
-- [ ] **Task 220**: Build AWS CLI target execution script mapping cluster creations.
-- [ ] **Task 221**: Prepare task definition parameter configurations.
-- [ ] **Task 222**: Write task definition configuration files to path `/tmp/task-definition.json`.
-- [ ] **Task 223**: Run task definition registration commands using exec.
-- [ ] **Task 224**: Execute VPC query commands fetching default settings.
-- [ ] **Task 225**: Select subnets list from CLI query results.
-- [ ] **Task 226**: Create deployment target security groups.
-- [ ] **Task 227**: Authorize security group ingress commands.
-- [ ] **Task 228**: Launch ECS Service creation script with launch type FARGATE.
-- [ ] **Task 229**: Return deployment outcomes containing URLs and resource mappings.
-- [ ] **Task 230**: Implement `deployLambda` function.
-- [ ] **Task 231**: Create trust relationship policy configurations.
-- [ ] **Task 232**: Create IAM execution roles using aws CLI commands.
-- [ ] **Task 233**: Bind AWS managed service execution policies to created roles.
-- [ ] **Task 234**: Wait for IAM roles to propagate globally.
-- [ ] **Task 235**: Deploy AWS lambda packages using CLI commands.
-- [ ] **Task 236**: Return function ARN and properties.
-- [ ] **Task 237**: Implement `deployStaticSite` hosting files inside AWS S3 buckets.
-- [ ] **Task 238**: Create target S3 buckets using mb commands.
-- [ ] **Task 239**: Set S3 website property settings.
-- [ ] **Task 240**: Write bucket policy JSON payload allowing public access.
+- [x] **Task 211**: Create `src/providers/aws/index.ts` file (Disabled/Stubbed).
+- [x] **Task 212**: Import exec helpers, fs writes, resource string sanitizers (Disabled/Stubbed).
+- [x] **Task 213**: Define configuration options interface `AWSConfig` (Disabled/Stubbed).
+- [x] **Task 214**: Define AWS `DeploymentResult` format (Disabled/Stubbed).
+- [x] **Task 215**: Declare `AWSProvider` class interface (Disabled/Stubbed).
+- [x] **Task 216**: Implement constructor initializing profile and target region values (Disabled/Stubbed).
+- [x] **Task 217**: Implement `authenticate` calling caller-identity command (Disabled/Stubbed).
+- [x] **Task 218**: Implement `deployToECS` ECS service deployer function (Disabled/Stubbed).
+- [x] **Task 219**: Sanitize deployment app names for ECS clusters (Disabled/Stubbed).
+- [x] **Task 220**: Build AWS CLI target execution script mapping cluster creations (Disabled/Stubbed).
+- [x] **Task 221**: Prepare task definition parameter configurations (Disabled/Stubbed).
+- [x] **Task 222**: Write task definition configuration files to path `/tmp/task-definition.json` (Disabled/Stubbed).
+- [x] **Task 223**: Run task definition registration commands using exec (Disabled/Stubbed).
+- [x] **Task 224**: Execute VPC query commands fetching default settings (Disabled/Stubbed).
+- [x] **Task 225**: Select subnets list from CLI query results (Disabled/Stubbed).
+- [x] **Task 226**: Create deployment target security groups (Disabled/Stubbed).
+- [x] **Task 227**: Authorize security group ingress commands (Disabled/Stubbed).
+- [x] **Task 228**: Launch ECS Service creation script with launch type FARGATE (Disabled/Stubbed).
+- [x] **Task 229**: Return deployment outcomes containing URLs and resource mappings (Disabled/Stubbed).
+- [x] **Task 230**: Implement `deployLambda` function (Disabled/Stubbed).
+- [x] **Task 231**: Create trust relationship policy configurations (Disabled/Stubbed).
+- [x] **Task 232**: Create IAM execution roles using aws CLI commands (Disabled/Stubbed).
+- [x] **Task 233**: Bind AWS managed service execution policies to created roles (Disabled/Stubbed).
+- [x] **Task 234**: Wait for IAM roles to propagate globally (Disabled/Stubbed).
+- [x] **Task 235**: Deploy AWS lambda packages using CLI commands (Disabled/Stubbed).
+- [x] **Task 236**: Return function ARN and properties (Disabled/Stubbed).
+- [x] **Task 237**: Implement `deployStaticSite` hosting files inside AWS S3 buckets (Disabled/Stubbed).
+- [x] **Task 238**: Create target S3 buckets using mb commands (Disabled/Stubbed).
+- [x] **Task 239**: Set S3 website property settings (Disabled/Stubbed).
+- [x] **Task 240**: Write bucket policy JSON payload allowing public access (Disabled/Stubbed).
 
 ### AWS Provider Continued (`src/providers/aws/index.ts`)
-- [ ] **Task 241**: Apply policy payloads to AWS S3 buckets.
-- [ ] **Task 242**: Run sync commands uploads updating build folders to S3.
-- [ ] **Task 243**: Return live website URL endpoint.
-- [ ] **Task 244**: Implement `cleanup` removing created ecs services.
-- [ ] **Task 245**: Implement `cleanup` removing ecs clusters.
+- [x] **Task 241**: Apply policy payloads to AWS S3 buckets (Disabled/Stubbed).
+- [x] **Task 242**: Run sync commands uploads updating build folders to S3 (Disabled/Stubbed).
+- [x] **Task 243**: Return live website URL endpoint (Disabled/Stubbed).
+- [x] **Task 244**: Implement `cleanup` removing created ecs services (Disabled/Stubbed).
+- [x] **Task 245**: Implement `cleanup` removing ecs clusters (Disabled/Stubbed).
 
 ### GCP Provider (`src/providers/gcp/index.ts`)
-- [ ] **Task 246**: Create `src/providers/gcp/index.ts` file.
-- [ ] **Task 247**: Import utilities and types.
-- [ ] **Task 248**: Define `GCPConfig` format parameters.
-- [ ] **Task 249**: Declare `GCPProvider` class interface.
-- [ ] **Task 250**: Implement constructor setting target projects and location configurations.
-- [ ] **Task 251**: Implement `authenticate` validating active GCP CLI login listings.
-- [ ] **Task 252**: Implement `deployToCloudRun` container deployer.
-- [ ] **Task 253**: Check docker image presence or build from source using Cloud Build tag submissions.
-- [ ] **Task 254**: Run managed platform deploy scripts inside target region values.
-- [ ] **Task 255**: Parse URL formats from terminal print strings.
-- [ ] **Task 256**: Implement `deployCloudFunction` setup commands.
-- [ ] **Task 257**: Trigger deployment functions with http entry points.
-- [ ] **Task 258**: Return function details from GCP CLI response logs.
-- [ ] **Task 259**: Implement `deployStaticSite` setting Google Storage hosting.
-- [ ] **Task 260**: Create Storage buckets using bucket command utilities.
-- [ ] **Task 261**: Set uniform bucket level permissions to allow open listings.
-- [ ] **Task 262**: Configure public storage IAM policy bindings.
-- [ ] **Task 263**: Apply main page suffixes onto Storage web buckets.
-- [ ] **Task 264**: Execute copy actions syncing build folders up to Storage buckets.
-- [ ] **Task 265**: Implement `deployToAppEngine` engine deployments.
-- [ ] **Task 266**: Create `app.yaml` runtime details declarations dynamically.
-- [ ] **Task 267**: Execute app engine deploy commands.
-- [ ] **Task 268**: Implement `deployToFirebase` helper script.
-- [ ] **Task 269**: Write configurations inside `firebase.json` formats.
-- [ ] **Task 270**: Deploy firebase projects using deployment CLI commands.
-- [ ] **Task 271**: Extract live Firebase hosting urls.
-- [ ] **Task 272**: Implement GCP `cleanup` removing run services, functions, and storage buckets.
+- [x] **Task 246**: Create `src/providers/gcp/index.ts` file (Disabled/Stubbed).
+- [x] **Task 247**: Import utilities and types (Disabled/Stubbed).
+- [x] **Task 248**: Define `GCPConfig` format parameters (Disabled/Stubbed).
+- [x] **Task 249**: Declare `GCPProvider` class interface (Disabled/Stubbed).
+- [x] **Task 250**: Implement constructor setting target projects and location configurations (Disabled/Stubbed).
+- [x] **Task 251**: Implement `authenticate` validating active GCP CLI login listings (Disabled/Stubbed).
+- [x] **Task 252**: Implement `deployToCloudRun` container deployer (Disabled/Stubbed).
+- [x] **Task 253**: Check docker image presence or build from source using Cloud Build tag submissions (Disabled/Stubbed).
+- [x] **Task 254**: Run managed platform deploy scripts inside target region values (Disabled/Stubbed).
+- [x] **Task 255**: Parse URL formats from terminal print strings (Disabled/Stubbed).
+- [x] **Task 256**: Implement `deployCloudFunction` setup commands (Disabled/Stubbed).
+- [x] **Task 257**: Trigger deployment functions with http entry points (Disabled/Stubbed).
+- [x] **Task 258**: Return function details from GCP CLI response logs (Disabled/Stubbed).
+- [x] **Task 259**: Implement `deployStaticSite` setting Google Storage hosting (Disabled/Stubbed).
+- [x] **Task 260**: Create Storage buckets using bucket command utilities (Disabled/Stubbed).
+- [x] **Task 261**: Set uniform bucket level permissions to allow open listings (Disabled/Stubbed).
+- [x] **Task 262**: Configure public storage IAM policy bindings (Disabled/Stubbed).
+- [x] **Task 263**: Apply main page suffixes onto Storage web buckets (Disabled/Stubbed).
+- [x] **Task 264**: Execute copy actions syncing build folders up to Storage buckets (Disabled/Stubbed).
+- [x] **Task 265**: Implement `deployToAppEngine` engine deployments (Disabled/Stubbed).
+- [x] **Task 266**: Create `app.yaml` runtime details declarations dynamically (Disabled/Stubbed).
+- [x] **Task 267**: Execute app engine deploy commands (Disabled/Stubbed).
+- [x] **Task 268**: Implement `deployToFirebase` helper script (Disabled/Stubbed).
+- [x] **Task 269**: Write configurations inside `firebase.json` formats (Disabled/Stubbed).
+- [x] **Task 270**: Deploy firebase projects using deployment CLI commands (Disabled/Stubbed).
+- [x] **Task 271**: Extract live Firebase hosting urls (Disabled/Stubbed).
+- [x] **Task 272**: Implement GCP `cleanup` removing run services, functions, and storage buckets (Disabled/Stubbed).
 
 ### Azure Provider (`src/providers/azure/index.ts`)
-- [ ] **Task 273**: Create `src/providers/azure/index.ts` file.
-- [ ] **Task 274**: Import dependencies and helpers.
-- [ ] **Task 275**: Declare `AzureProvider` class interface.
-- [ ] **Task 276**: Implement constructor initializing subscription, resources groups, and location settings.
-- [ ] **Task 277**: Implement `authenticate` validating Azure account details.
-- [ ] **Task 278**: Write private `ensureResourceGroup` verifying resource groups exist.
-- [ ] **Task 279**: Implement `deployToContainerApps` service setup.
-- [ ] **Task 280**: Execute Container App environment creation tools.
-- [ ] **Task 281**: Deploy Container Apps with ingress external settings.
-- [ ] **Task 282**: Implement `deployAzureFunctions` serverless script.
-- [ ] **Task 283**: Create Azure storage accounts for function states.
-- [ ] **Task 284**: Create function apps configurations.
-- [ ] **Task 285**: Deploy function app code using publishing commands.
-- [ ] **Task 286**: Implement `deployStaticWebApp` hosting deployments.
-- [ ] **Task 287**: Launch static web apps creation script in Azure CLI.
-- [ ] **Task 288**: Fetch app key secrets inside Azure.
-- [ ] **Task 289**: Run static web apps CLI deploy tools.
-- [ ] **Task 290**: Implement `deployBlobStorage` hosting setup.
-- [ ] **Task 291**: Create storage accounts utilizing Standard_LRS sku configurations.
-- [ ] **Task 292**: Update blob service properties enabling static website hosting.
-- [ ] **Task 293**: Upload batch assets updating target blobs container.
-- [ ] **Task 294**: Implement App Service deployment function `deployAppService`.
-- [ ] **Task 295**: Create simulated fast deployment logging steps inside `deployAppService`.
-- [ ] **Task 296**: Generate App Service live URL mock outputs.
-- [ ] **Task 297**: Implement `cleanup` command delete targets: containerApp.
-- [ ] **Task 298**: Implement `cleanup` command delete targets: function.
-- [ ] **Task 299**: Implement `cleanup` command delete targets: app, storage.
-- [ ] **Task 300**: Implement `cleanupResourceGroup` script initiating background removals.
+- [x] **Task 273**: Create `src/providers/azure/index.ts` file.
+- [x] **Task 274**: Import dependencies and helpers.
+- [x] **Task 275**: Declare `AzureProvider` class interface.
+- [x] **Task 276**: Implement constructor initializing subscription, resources groups, and location settings.
+- [x] **Task 277**: Implement `authenticate` validating Azure account details.
+- [x] **Task 278**: Write private `ensureResourceGroup` verifying resource groups exist.
+- [x] **Task 279**: Implement `deployToContainerApps` service setup.
+- [x] **Task 280**: Execute Container App environment creation tools.
+- [x] **Task 281**: Deploy Container Apps with ingress external settings.
+- [x] **Task 282**: Implement `deployAzureFunctions` serverless script.
+- [x] **Task 283**: Create Azure storage accounts for function states.
+- [x] **Task 284**: Create function apps configurations.
+- [x] **Task 285**: Deploy function app code using publishing commands.
+- [x] **Task 286**: Implement `deployStaticWebApp` hosting deployments.
+- [x] **Task 287**: Launch static web apps creation script in Azure CLI.
+- [x] **Task 288**: Fetch app key secrets inside Azure.
+- [x] **Task 289**: Run static web apps CLI deploy tools.
+- [x] **Task 290**: Implement `deployBlobStorage` hosting setup.
+- [x] **Task 291**: Create storage accounts utilizing Standard_LRS sku configurations.
+- [x] **Task 292**: Update blob service properties enabling static website hosting.
+- [x] **Task 293**: Upload batch assets updating target blobs container.
+- [x] **Task 294**: Implement App Service deployment function `deployAppService`.
+- [x] **Task 295**: Create simulated fast deployment logging steps inside `deployAppService`.
+- [x] **Task 296**: Generate App Service live URL mock outputs.
+- [x] **Task 297**: Implement `cleanup` command delete targets: containerApp.
+- [x] **Task 298**: Implement `cleanup` command delete targets: function.
+- [x] **Task 299**: Implement `cleanup` command delete targets: app, storage.
+- [x] **Task 300**: Implement `cleanupResourceGroup` script initiating background removals.
 
 ---
 
