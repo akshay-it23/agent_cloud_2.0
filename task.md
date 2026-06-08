@@ -138,55 +138,55 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 111**: Export `getConfigManager` factory function.
 
 ### Custom Domain Errors (`src/utils/error-handler.ts`)
-- [ ] **Task 112**: Create `src/utils/error-handler.ts` file.
-- [ ] **Task 113**: Import `chalk` and logging functions.
-- [ ] **Task 114**: Declare `DeploymentError` extending base `Error` class.
-- [ ] **Task 115**: Implement constructor parameters: `message`, `code`, `cloud`, `recoverable`, `suggestions`.
-- [ ] **Task 116**: Declare `AuthenticationError` extending base `Error` class.
-- [ ] **Task 117**: Declare `ValidationError` extending base `Error` class.
-- [ ] **Task 118**: Declare `WorkflowError` extending base `Error` class.
-- [ ] **Task 119**: Declare `ErrorHandler` orchestrator class.
-- [ ] **Task 120**: Create constructor setting private logger instance.
-- [ ] **Task 121**: Implement `handleDeploymentError` print formatting logic.
-- [ ] **Task 122**: Implement `handleAuthenticationError` user-facing fix advice formatting.
-- [ ] **Task 123**: Implement `handleValidationError` printing problematic fields.
-- [ ] **Task 124**: Implement `handleWorkflowError` resume/retry details printer.
-- [ ] **Task 125**: Implement `handleGenericError` printing stack trace if debug is on.
-- [ ] **Task 126**: Implement route detection in `handle` to forward errors to correct typed handler.
-- [ ] **Task 127**: Implement `wrap` utility wrapping asynchronous code executions.
-- [ ] **Task 128**: Define global error handler export helper.
-- [ ] **Task 129**: Create `ErrorFactory` object literal configuration.
-- [ ] **Task 130**: Implement AWS deployment error builder helper.
-- [ ] **Task 131**: Implement GCP deployment error builder helper.
-- [ ] **Task 132**: Implement Azure deployment error builder helper.
-- [ ] **Task 133**: Implement AWS auth failed error builder helper.
-- [ ] **Task 134**: Implement GCP auth failed error builder helper.
-- [ ] **Task 135**: Implement Azure auth failed error builder helper.
-- [ ] **Task 136**: Implement workflow step failure builder helper.
-- [ ] **Task 137**: Implement invalid cloud validation builder helper.
-- [ ] **Task 138**: Implement missing project path validation builder helper.
+- [x] **Task 112**: Create `src/utils/error-handler.ts` file.
+- [x] **Task 113**: Import `chalk` and logging functions.
+- [x] **Task 114**: Declare `DeploymentError` extending base `Error` class.
+- [x] **Task 115**: Implement constructor parameters: `message`, `code`, `cloud`, `recoverable`, `suggestions`.
+- [x] **Task 116**: Declare `AuthenticationError` extending base `Error` class.
+- [x] **Task 117**: Declare `ValidationError` extending base `Error` class.
+- [x] **Task 118**: Declare `WorkflowError` extending base `Error` class.
+- [x] **Task 119**: Declare `ErrorHandler` orchestrator class.
+- [x] **Task 120**: Create constructor setting private logger instance.
+- [x] **Task 121**: Implement `handleDeploymentError` print formatting logic.
+- [x] **Task 122**: Implement `handleAuthenticationError` user-facing fix advice formatting.
+- [x] **Task 123**: Implement `handleValidationError` printing problematic fields.
+- [x] **Task 124**: Implement `handleWorkflowError` resume/retry details printer.
+- [x] **Task 125**: Implement `handleGenericError` printing stack trace if debug is on.
+- [x] **Task 126**: Implement route detection in `handle` to forward errors to correct typed handler.
+- [x] **Task 127**: Implement `wrap` utility wrapping asynchronous code executions.
+- [x] **Task 128**: Define global error handler export helper.
+- [x] **Task 129**: Create `ErrorFactory` object literal configuration.
+- [x] **Task 130**: Implement AWS deployment error builder helper.
+- [x] **Task 131**: Implement GCP deployment error builder helper.
+- [x] **Task 132**: Implement Azure deployment error builder helper.
+- [x] **Task 133**: Implement AWS auth failed error builder helper.
+- [x] **Task 134**: Implement GCP auth failed error builder helper.
+- [x] **Task 135**: Implement Azure auth failed error builder helper.
+- [x] **Task 136**: Implement workflow step failure builder helper.
+- [x] **Task 137**: Implement invalid cloud validation builder helper.
+- [x] **Task 138**: Implement missing project path validation builder helper.
 
 ### Project Interfaces & Types (`src/types/index.ts`)
-- [ ] **Task 139**: Create `src/types/index.ts` file.
-- [ ] **Task 140**: Export type declarations for `CloudProvider`, `DeploymentRequirements`, `CloudProviderConfig`, `ProjectAnalysis`, `DeploymentPlan`, and `ProgressStep`.
+- [x] **Task 139**: Create `src/types/index.ts` file.
+- [x] **Task 140**: Export type declarations for `CloudProvider`, `DeploymentRequirements`, `CloudProviderConfig`, `ProjectAnalysis`, `DeploymentPlan`, and `ProgressStep`.
 
 ---
 
 ## Phase 4: CLI Interface, Banners, & Wizards (Tasks 141-190)
 
 ### Banner & Layout (`src/cli/banner.ts`)
-- [ ] **Task 141**: Create `src/cli/banner.ts` file.
-- [ ] **Task 142**: Import `figlet`, `gradient-string`, and `chalk`.
-- [ ] **Task 143**: Write `displayBanner` method executing `figlet.textSync` with 'Small' font.
-- [ ] **Task 144**: Configure gradient string color arrays for CLI banner header.
-- [ ] **Task 145**: Write `displayHeader` function using repeat repeat block styling.
-- [ ] **Task 146**: Write `displayDivider` method to print simple horizontal rules.
-- [ ] **Task 147**: Write validation warning displayers: `displaySuccess`, `displayError`, `displayInfo`, `displayWarning`.
+- [x] **Task 141**: Create `src/cli/banner.ts` file.
+- [x] **Task 142**: Import `figlet`, `gradient-string`, and `chalk`.
+- [x] **Task 143**: Write `displayBanner` method executing `figlet.textSync` with 'Small' font.
+- [x] **Task 144**: Configure gradient string color arrays for CLI banner header.
+- [x] **Task 145**: Write `displayHeader` function using repeat repeat block styling.
+- [x] **Task 146**: Write `displayDivider` method to print simple horizontal rules.
+- [x] **Task 147**: Write validation warning displayers: `displaySuccess`, `displayError`, `displayInfo`, `displayWarning`.
 
 ### Global CLI Error Handlers (`src/cli/error-handler.ts`)
-- [ ] **Task 148**: Create `src/cli/error-handler.ts` file.
-- [ ] **Task 149**: Import `chalk` and banner displays.
-- [ ] **Task 150**: Write CLI `handleError` checking for key-related error substring patterns.
+- [x] **Task 148**: Create `src/cli/error-handler.ts` file.
+- [x] **Task 149**: Import `chalk` and banner displays.
+- [x] **Task 150**: Write CLI `handleError` checking for key-related error substring patterns.
 - [ ] **Task 151**: Map `ENOENT` error conditions to user actions.
 - [ ] **Task 152**: Map `EACCES` file access block conditions to user actions.
 - [ ] **Task 153**: Map `ECONNREFUSED` network disconnection conditions to user actions.
