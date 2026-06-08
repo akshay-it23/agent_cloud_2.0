@@ -421,17 +421,17 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 8: Custom AI Tools (Tasks 341-380)
 
 ### Code Scanners & Parsers (`src/mastra/tools/index.ts`)
-- [ ] **Task 341**: Create `src/mastra/tools/index.ts` file.
-- [ ] **Task 342**: Import `createTool` from Mastra core tools.
-- [ ] **Task 343**: Import `zod` for schemas definitions.
-- [ ] **Task 344**: Define `fileSystemTool` parameter configurations.
-- [ ] **Task 345**: Implement folder scanners inside `fileSystemTool` ignoring node_modules/git directories.
-- [ ] **Task 346**: Define `fileReaderTool` parameter configurations.
-- [ ] **Task 347**: Implement file reader logic inside `fileReaderTool` returning file content strings.
-- [ ] **Task 348**: Define `dependencyAnalyzerTool` parameter configurations.
-- [ ] **Task 349**: Implement dependency analyzer logic mapping framework configurations.
-- [ ] **Task 350**: Define `packageJsonParserTool` parameter configurations.
-- [ ] **Task 351**: Implement JSON parsing logic extracting build/start script properties.
+- [x] **Task 341**: Create `src/mastra/tools/index.ts` file.
+- [x] **Task 342**: Import `createTool` from Mastra core tools.
+- [x] **Task 343**: Import `zod` for schemas definitions.
+- [x] **Task 344**: Define `fileSystemTool` parameter configurations.
+- [x] **Task 345**: Implement folder scanners inside `fileSystemTool` ignoring node_modules/git directories.
+- [x] **Task 346**: Define `fileReaderTool` parameter configurations.
+- [x] **Task 347**: Implement file reader logic inside `fileReaderTool` returning file content strings.
+- [x] **Task 348**: Define `dependencyAnalyzerTool` parameter configurations.
+- [x] **Task 349**: Implement dependency analyzer logic mapping framework configurations.
+- [x] **Task 350**: Define `packageJsonParserTool` parameter configurations.
+- [x] **Task 351**: Implement JSON parsing logic extracting build/start script properties.
 
 ### Planning Tools (`src/mastra/tools/deployment.ts`)
 - [ ] **Task 352**: Create `src/mastra/tools/deployment.ts` file.
