@@ -187,28 +187,28 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 - [x] **Task 148**: Create `src/cli/error-handler.ts` file.
 - [x] **Task 149**: Import `chalk` and banner displays.
 - [x] **Task 150**: Write CLI `handleError` checking for key-related error substring patterns.
-- [ ] **Task 151**: Map `ENOENT` error conditions to user actions.
-- [ ] **Task 152**: Map `EACCES` file access block conditions to user actions.
-- [ ] **Task 153**: Map `ECONNREFUSED` network disconnection conditions to user actions.
-- [ ] **Task 154**: Implement system-wide termination setup helper `setupGlobalErrorHandlers`.
-- [ ] **Task 155**: Write `SIGINT` catch block to quit CLI gracefully.
-- [ ] **Task 156**: Write `SIGTERM` handler.
-- [ ] **Task 157**: Implement environment validation checker `validateEnvironment`.
+- [x] **Task 151**: Map `ENOENT` error conditions to user actions.
+- [x] **Task 152**: Map `EACCES` file access block conditions to user actions.
+- [x] **Task 153**: Map `ECONNREFUSED` network disconnection conditions to user actions.
+- [x] **Task 154**: Implement system-wide termination setup helper `setupGlobalErrorHandlers`.
+- [x] **Task 155**: Write `SIGINT` catch block to quit CLI gracefully.
+- [x] **Task 156**: Write `SIGTERM` handler.
+- [x] **Task 157**: Implement environment validation checker `validateEnvironment`.
 
 ### Guided Setup Wizards (`src/cli/prompts.ts`)
-- [ ] **Task 158**: Create `src/cli/prompts.ts` file.
-- [ ] **Task 159**: Import `inquirer`, `chalk`, and models.
-- [ ] **Task 160**: Define `CLOUD_PROVIDERS` configuration dictionary with CLI paths and doc links.
-- [ ] **Task 161**: Implement `displayWelcome` information writer.
-- [ ] **Task 162**: Implement `collectDeploymentRequirements` questionnaire builder.
-- [ ] **Task 163**: Setup deployment description input with inquirer validation rule (minimum 3 chars).
-- [ ] **Task 164**: Setup cloud selection prompt with pretty icons and descriptions.
-- [ ] **Task 165**: Implement `confirmDeploymentPlan` review layout logic.
-- [ ] **Task 166**: Implement `collectEnvironmentVariables` password collection prompt hidden input mask.
-- [ ] **Task 167**: Implement `withLoadingMessage` inline async tracker.
-- [ ] **Task 168**: Implement `selectFromList` prompt choice builder.
-- [ ] **Task 169**: Implement `getTextInput` and `getConfirmation` interactive inquirer builders.
-- [ ] **Task 170**: Implement `getCloudProviderConfig` and `displayCloudProviders` CLI summary printers.
+- [x] **Task 158**: Create `src/cli/prompts.ts` file.
+- [x] **Task 159**: Import `inquirer`, `chalk`, and models.
+- [x] **Task 160**: Define `CLOUD_PROVIDERS` configuration dictionary with CLI paths and doc links.
+- [x] **Task 161**: Implement `displayWelcome` information writer.
+- [x] **Task 162**: Implement `collectDeploymentRequirements` questionnaire builder.
+- [x] **Task 163**: Setup deployment description input with inquirer validation rule (minimum 3 chars).
+- [x] **Task 164**: Setup cloud selection prompt with pretty icons and descriptions.
+- [x] **Task 165**: Implement `confirmDeploymentPlan` review layout logic.
+- [x] **Task 166**: Implement `collectEnvironmentVariables` password collection prompt hidden input mask.
+- [x] **Task 167**: Implement `withLoadingMessage` inline async tracker.
+- [x] **Task 168**: Implement `selectFromList` prompt choice builder.
+- [x] **Task 169**: Implement `getTextInput` and `getConfirmation` interactive inquirer builders.
+- [x] **Task 170**: Implement `getCloudProviderConfig` and `displayCloudProviders` CLI summary printers.
 
 ---
 
