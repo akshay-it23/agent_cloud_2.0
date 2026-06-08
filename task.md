@@ -215,50 +215,50 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 5: CLI Entrypoint Commands & Routing (Tasks 171-210)
 
 ### Action Routing (`src/cli/commands.ts`)
-- [ ] **Task 171**: Create `src/cli/commands.ts` file.
-- [ ] **Task 172**: Import libraries: filesystem tools, prompts, utilities, and models.
-- [ ] **Task 173**: Declare `initCommand` wizard function.
-- [ ] **Task 174**: Implement `.env` path resolution and check file accessibility in `initCommand`.
-- [ ] **Task 175**: Setup API key wizard prompts selecting Google Gemini vs OpenAI.
-- [ ] **Task 176**: Write file-appender logic to save keys into local `.env` values.
-- [ ] **Task 177**: Program CLI scanner iteration checking `aws`, `gcloud`, and `az` versions.
-- [ ] **Task 178**: Configure provider preferences setup loop based on detected command-line CLIs.
-- [ ] **Task 179**: Declare `analyzeCommand` analyzer handler.
-- [ ] **Task 180**: Implement toggle logic supporting offline local scans vs AI analyzer agent stream lookups.
-- [ ] **Task 181**: Parse stream chunk outputs from analyzer agent in `analyzeCommand`.
-- [ ] **Task 182**: Extract JSON arrays from AI responses using regex match logic.
-- [ ] **Task 183**: Implement offline project analyzer `runLocalAnalysis`.
-- [ ] **Task 184**: Add Docker configuration files scanner (Dockerfile, docker-compose).
-- [ ] **Task 185**: Read Node.js properties: package manager locks (`pnpm`, `yarn`, `bun`), scripts, dependency imports.
-- [ ] **Task 186**: Set runtime detection targets for framework matches (Express, NestJS, Next.js, Fastify, Vue, React).
-- [ ] **Task 187**: Add backend service dependency lookups (Postgres, Mongo, MySQL, Redis, SQLite).
-- [ ] **Task 188**: Set Python requirement files checker (requirements.txt, FastAPI, Flask, Django).
-- [ ] **Task 189**: Set Go backend module checker (`go.mod`).
-- [ ] **Task 190**: Configure static index.html checkers and print analysis details in console logs.
+- [x] **Task 171**: Create `src/cli/commands.ts` file.
+- [x] **Task 172**: Import libraries: filesystem tools, prompts, utilities, and models.
+- [x] **Task 173**: Declare `initCommand` wizard function.
+- [x] **Task 174**: Implement `.env` path resolution and check file accessibility in `initCommand`.
+- [x] **Task 175**: Setup API key wizard prompts selecting Google Gemini vs OpenAI.
+- [x] **Task 176**: Write file-appender logic to save keys into local `.env` values.
+- [x] **Task 177**: Program CLI scanner iteration checking `aws`, `gcloud`, and `az` versions.
+- [x] **Task 178**: Configure provider preferences setup loop based on detected command-line CLIs.
+- [x] **Task 179**: Declare `analyzeCommand` analyzer handler.
+- [x] **Task 180**: Implement toggle logic supporting offline local scans vs AI analyzer agent stream lookups.
+- [x] **Task 181**: Parse stream chunk outputs from analyzer agent in `analyzeCommand`.
+- [x] **Task 182**: Extract JSON arrays from AI responses using regex match logic.
+- [x] **Task 183**: Implement offline project analyzer `runLocalAnalysis`.
+- [x] **Task 184**: Add Docker configuration files scanner (Dockerfile, docker-compose).
+- [x] **Task 185**: Read Node.js properties: package manager locks (`pnpm`, `yarn`, `bun`), scripts, dependency imports.
+- [x] **Task 186**: Set runtime detection targets for framework matches (Express, NestJS, Next.js, Fastify, Vue, React).
+- [x] **Task 187**: Add backend service dependency lookups (Postgres, Mongo, MySQL, Redis, SQLite).
+- [x] **Task 188**: Set Python requirement files checker (requirements.txt, FastAPI, Flask, Django).
+- [x] **Task 189**: Set Go backend module checker (`go.mod`).
+- [x] **Task 190**: Configure static index.html checkers and print analysis details in console logs.
 
 ### Action Routing Continued (`src/cli/commands.ts`)
-- [ ] **Task 191**: Implement fallback project classifications if type scans fail.
-- [ ] **Task 192**: Setup static project recommendations lists mapping to local config recommendations.
-- [ ] **Task 193**: Declare `historyCommand` history listing viewer.
-- [ ] **Task 194**: Fetch deployments from config manager inside `historyCommand`.
-- [ ] **Task 195**: Handle empty history list by showing run instructions.
-- [ ] **Task 196**: Compute summary reports inside `historyCommand`.
-- [ ] **Task 197**: Format deployment dates and duration statistics.
-- [ ] **Task 198**: Declare `infoCommand` mapping to provider details print views.
+- [x] **Task 191**: Implement fallback project classifications if type scans fail.
+- [x] **Task 192**: Setup static project recommendations lists mapping to local config recommendations.
+- [x] **Task 193**: Declare `historyCommand` history listing viewer.
+- [x] **Task 194**: Fetch deployments from config manager inside `historyCommand`.
+- [x] **Task 195**: Handle empty history list by showing run instructions.
+- [x] **Task 196**: Compute summary reports inside `historyCommand`.
+- [x] **Task 197**: Format deployment dates and duration statistics.
+- [x] **Task 198**: Declare `infoCommand` mapping to provider details print views.
 
 ### CLI Index Entrypoint (`src/cli/index.ts`)
-- [ ] **Task 199**: Create `src/cli/index.ts` file.
-- [ ] **Task 200**: Import dotenv configuration variables.
-- [ ] **Task 201**: Import commander `Command` class.
-- [ ] **Task 202**: Import setup wizard actions, workflow commands, banners, and handlers.
-- [ ] **Task 203**: Write CLI `main` setup.
-- [ ] **Task 204**: Configure CLI application name and description inside `main`.
-- [ ] **Task 205**: Define option `--deploy` (Fast Deployment demo trigger).
-- [ ] **Task 206**: Bind `init` command option structure.
-- [ ] **Task 207**: Bind `analyze` command option structure matching local scans.
-- [ ] **Task 208**: Bind `deploy` command options (cloud provider, path override, auto-approve, dry-run).
-- [ ] **Task 209**: Bind `status` command options.
-- [ ] **Task 210**: Bind `history` and `info` commands, and start runner process execution parsing logic.
+- [x] **Task 199**: Create `src/cli/index.ts` file.
+- [x] **Task 200**: Import dotenv configuration variables.
+- [x] **Task 201**: Import commander `Command` class.
+- [x] **Task 202**: Import setup wizard actions, workflow commands, banners, and handlers.
+- [x] **Task 203**: Write CLI `main` setup.
+- [x] **Task 204**: Configure CLI application name and description inside `main`.
+- [x] **Task 205**: Define option `--deploy` (Fast Deployment demo trigger).
+- [x] **Task 206**: Bind `init` command option structure.
+- [x] **Task 207**: Bind `analyze` command option structure matching local scans.
+- [x] **Task 208**: Bind `deploy` command options (cloud provider, path override, auto-approve, dry-run).
+- [x] **Task 209**: Bind `status` command options.
+- [x] **Task 210**: Bind `history` and `info` commands, and start runner process execution parsing logic.
 
 ---
 
