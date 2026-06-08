@@ -446,16 +446,16 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 
 ### Validation Tools (`src/mastra/tools/validator.ts`)
 - [x] **Task 361**: Create `src/mastra/tools/validator.ts` file.
-- [ ] **Task 362**: Define `cliCheckerTool` properties.
-- [ ] **Task 363**: Implement command executions looking up version strings inside `cliCheckerTool`.
-- [ ] **Task 364**: Define `authCheckerTool` properties.
-- [ ] **Task 365**: Implement STS caller check operations inside `authCheckerTool` for AWS.
-- [ ] **Task 366**: Implement account status check operations inside `authCheckerTool` for GCP.
-- [ ] **Task 367**: Implement account configuration check operations inside `authCheckerTool` for Azure.
-- [ ] **Task 368**: Define `envVarCheckerTool` properties.
-- [ ] **Task 369**: Implement environment checks validating access properties in `envVarCheckerTool`.
-- [ ] **Task 370**: Define `networkCheckerTool` properties.
-- [ ] **Task 371**: Implement curl execution logic inside `networkCheckerTool` calculating connection latencies.
+- [x] **Task 362**: Define `cliCheckerTool` properties.
+- [x] **Task 363**: Implement command executions looking up version strings inside `cliCheckerTool`.
+- [x] **Task 364**: Define `authCheckerTool` properties.
+- [x] **Task 365**: Implement STS caller check operations inside `authCheckerTool` for AWS.
+- [x] **Task 366**: Implement account status check operations inside `authCheckerTool` for GCP.
+- [x] **Task 367**: Implement account configuration check operations inside `authCheckerTool` for Azure.
+- [x] **Task 368**: Define `envVarCheckerTool` properties.
+- [x] **Task 369**: Implement environment checks validating access properties in `envVarCheckerTool`.
+- [x] **Task 370**: Define `networkCheckerTool` properties.
+- [x] **Task 371**: Implement curl execution logic inside `networkCheckerTool` calculating connection latencies.
 - [ ] **Task 372**: Define `permissionsCheckerTool` properties.
 - [ ] **Task 373**: Implement bucket list commands inside `permissionsCheckerTool` checking AWS access permissions.
 - [ ] **Task 374**: Implement projects list commands checking GCP permissions.
