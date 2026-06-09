@@ -473,25 +473,25 @@ Use this complete step-by-step checklist to build the **Agent-Cloud CLI** projec
 ## Phase 9: Workflow Orchestration & Verification (Tasks 381-400)
 
 ### Orchestration Workflows (`src/mastra/workflows/deployment.ts`)
-- [ ] **Task 381**: Create `src/mastra/workflows/deployment.ts` file.
-- [ ] **Task 382**: Import step creation modules from Mastra.
-- [ ] **Task 383**: Declare `deploymentStep` defining input, output, and resume validation schemas.
-- [ ] **Task 384**: Initialize production managers (logger, config, error) in `deploymentStep`.
-- [ ] **Task 385**: Setup Phase 1 execution checking environment validation states.
-- [ ] **Task 386**: Setup Phase 2 execution checking project frameworks details.
-- [ ] **Task 387**: Setup Phase 3 deployment planning steps.
-- [ ] **Task 388**: Setup Phase 4 user-facing approval gate trigger calls.
-- [ ] **Task 389**: Configure suspend mechanisms returning payload items.
-- [ ] **Task 390**: Setup user rejection log recording rules.
-- [ ] **Task 391**: Configure Phase 5 cloud provider selection routers.
-- [ ] **Task 392**: Setup AWS deployments execution paths inside Phase 5.
-- [ ] **Task 393**: Setup GCP deployments execution paths inside Phase 5.
-- [ ] **Task 394**: Setup Azure deployments execution paths inside Phase 5.
-- [ ] **Task 395**: Add post-deployment validation logging, config recordings, and duration measurements.
-- [ ] **Task 396**: Catch and handle outer errors inside workflow deployment.
-- [ ] **Task 397**: Define the main `deploymentWorkflow` configuration settings.
+- [x] **Task 381**: Create `src/mastra/workflows/deployment.ts` file.
+- [x] **Task 382**: Import step creation modules from Mastra.
+- [x] **Task 383**: Declare `deploymentStep` defining input, output, and resume validation schemas.
+- [x] **Task 384**: Initialize production managers (logger, config, error) in `deploymentStep`.
+- [x] **Task 385**: Setup Phase 1 execution checking environment validation states.
+- [x] **Task 386**: Setup Phase 2 execution checking project frameworks details.
+- [x] **Task 387**: Setup Phase 3 deployment planning steps.
+- [x] **Task 388**: Setup Phase 4 user-facing approval gate trigger calls.
+- [x] **Task 389**: Configure suspend mechanisms returning payload items.
+- [x] **Task 390**: Setup user rejection log recording rules.
+- [x] **Task 391**: Configure Phase 5 cloud provider selection routers.
+- [x] **Task 392**: Setup AWS deployments execution paths inside Phase 5.
+- [x] **Task 393**: Setup GCP deployments execution paths inside Phase 5.
+- [x] **Task 394**: Setup Azure deployments execution paths inside Phase 5.
+- [x] **Task 395**: Add post-deployment validation logging, config recordings, and duration measurements.
+- [x] **Task 396**: Catch and handle outer errors inside workflow deployment.
+- [x] **Task 397**: Define the main `deploymentWorkflow` configuration settings.
 
 ### Interactive Orchestrator CLI commands (`src/cli/workflow-commands.ts`)
-- [ ] **Task 398**: Create `src/cli/workflow-commands.ts` file.
-- [ ] **Task 399**: Implement interactive status validator commands.
-- [ ] **Task 400**: Implement interactive workflow deployment router triggers with approval gate inputs.
+- [x] **Task 398**: Create `src/cli/workflow-commands.ts` file.
+- [x] **Task 399**: Implement interactive status validator commands.
+- [x] **Task 400**: Implement interactive workflow deployment router triggers with approval gate inputs.

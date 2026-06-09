@@ -15,6 +15,7 @@ import {
     historyCommand, 
     infoCommand 
 } from './commands.js';
+import { runWorkflowDeployment, runWorkflowStatus } from './workflow-commands.js';
 import chalk from 'chalk';
 
 // Setup global exception/signal catching
@@ -60,18 +61,15 @@ program
     .option('-d, --dry-run', 'Inspect planning logic and check resource access without execution', false)
     .action(async (pathArg, options) => {
         const targetPath = pathArg || '.';
-        console.log(chalk.cyan(`\nInitiating deployment flow for project at: ${targetPath}`));
-        console.log(chalk.gray(`Config: cloud=${options.cloud || 'auto'}, auto-approve=${options.autoApprove}, dry-run=${options.dryRun}`));
-        console.log(chalk.yellow('Deployment executor workflow will be activated in Phase 9.'));
+        await runWorkflowDeployment(targetPath, options);
     });
 
 // Task 209: Bind status command options
 program
     .command('status')
     .description('Check execution progress or endpoints of your deployments')
-    .action(() => {
-        console.log(chalk.cyan('\nFetching deployment status logs...'));
-        console.log(chalk.yellow('Status queries will be wired in Phase 9 workflows.'));
+    .action(async () => {
+        await runWorkflowStatus();
     });
 
 // Task 210 (part 1): Bind history and info commands
